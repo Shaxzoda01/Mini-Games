@@ -1,0 +1,60 @@
+body {
+  text-align: center;
+  font-family: Arial;
+  background: #f5f5f5;
+}
+
+h2 {
+  margin-top: 20px;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 30px;
+}
+
+.pieces,
+.board {
+  width: 280px;
+  min-height: 280px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  border: 2px solid #333;
+  padding: 10px;
+  background: #fff;
+}
+
+.board div {
+  width: 85px;
+  height: 85px;
+  border: 1px dashed #aaa;
+}
+
+.piece {
+  width: 85px;
+  height: 85px;
+  cursor: grab;
+}
+
+.btn {
+  margin-top: 30px;
+  background: white;
+  color: blue;
+  border: 2px solid black;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: lightblue;
+}
+
+#message {
+  font-size: 18px;
+  margin-top: 15px;
+}

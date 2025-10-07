@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Puzzle</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Puzzle O'yini</h2>
+
+    <div class="container">
+      <div
+        id="pieces"
+        class="pieces"
+        ondrop="drop(event)"
+        ondragover="allowDrop(event)"
+      ></div>
+
+      <div id="board" class="board"></div>
+    </div>
+
+    <button class="btn" onclick="checkPuzzle()">Tekshirish</button>
+    <p id="message"></p>
+
+    <script src="script.js"></script>
+  </body>
+</html>
