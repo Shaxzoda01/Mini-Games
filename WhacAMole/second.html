@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./Frame 86312.svg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Jomhuria&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Whac A Mole</title>
+</head>
+
+<body>
+    <header>
+        <a href="./index.html">Whac-A- Mole</a>
+        <h1>High score: <span id="highScore">00</span></h1>
+    </header>
+    <input type="text" placeholder="Enter your name" id="input">
+    <h1 class="score">Your Score: <span id="score">00</span></h1>
+    <button id="start" onclick="startGame()">START GAME</button>
+    <img id="hammer" src="./imgs/mallet.png" alt="hammer">
+    <div class="wrapper">
+        <button class="circle"></button>
+        <button class="circle"></button>
+        <button class="circle"></button>
+        <button class="circle"></button>
+        <button class="circle"></button>
+        <button class="circle"></button>
+        <button class="circle"></button>
+        <button class="circle"></button>
+        <button class="circle"></button>
+    </div>
+    <table id="results">
+        <tr>
+            <th>User</th>
+            <th>Score</th>
+        </tr>
+    </table>
+    <script src="./app.js"></script>
+</body>
+
+</html>
