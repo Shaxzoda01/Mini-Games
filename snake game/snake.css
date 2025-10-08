@@ -1,0 +1,39 @@
+body {
+  background: linear-gradient(135deg, #b3e5fc, #e1f5fe);
+  color: #01579b;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+#board {
+  width: 400px;
+  height: 400px;
+  background: #bbdefb;
+  border: 3px solid #0288d1;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(20, 20px);
+  grid-template-rows: repeat(20, 20px);
+  box-shadow: 0 0 10px #0288d1;
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+}
+
+.snake {
+  background: #0288d1;
+  border-radius: 3px;
+}
+
+.food {
+  background: #ff5252;
+  border-radius: 50%;
+}
+
+#score {
+  font-weight: bold;
+  font-size: 18px;
+}
